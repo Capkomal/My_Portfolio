@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 
-/* pre loader start */
+
 .loader-container {
   position: fixed;
   top: 0;
@@ -56,9 +56,7 @@ html::-webkit-scrollbar-thumb {
 .loader-container.fade-out {
   top: -120%;
 }
-/* pre loader end */
 
-/* navbar starts */
 header {
   position: fixed;
   top: 0;
@@ -176,9 +174,7 @@ header .navbar ul li a:hover {
     right: 0;
   }
 }
-/* hamburger icon ends */
 
-/* hero section starts*/
 .home {
   position: relative;
   display: flex;
@@ -271,7 +267,7 @@ header .navbar ul li a:hover {
 .home .btn:hover i {
   transform: translateX(5px);
 }
-/* social icons start */
+
 .socials {
   position: relative;
   margin-top: 9rem;
@@ -341,10 +337,7 @@ header .navbar ul li a:hover {
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
-/* hero section end */
 
-/* about section starts */
 .about {
   background: rgb(255, 255, 255);
 }
@@ -455,10 +448,7 @@ header .navbar ul li a:hover {
     gap: 0;
   }
 }
-/* about media queries ends*/
-/* about section ends */
 
-/* skills section starts */
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
@@ -636,10 +626,7 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
   }
 }
-/* education media queries ends*/
-/* education section ends */
 
-/* work section starts */
 .work {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
@@ -757,9 +744,7 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* work section ends */
 
-/* experience section starts */
 .experience .timeline {
   position: relative;
   max-width: 1200px;
@@ -782,7 +767,7 @@ header .navbar ul li a:hover {
   background-color: inherit;
   width: 50%;
 }
-/*circles on timeline*/
+
 .experience .container::after {
   content: "\f0b1";
   position: absolute;
@@ -927,10 +912,7 @@ header .navbar ul li a:hover {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
 
-/* contact section starts */
 .contact {
   background: #e5ecfb;
   min-height: 60vh;
@@ -1084,10 +1066,7 @@ form .button-area {
     margin-right: 2rem;
   }
 }
-/* contact section media queries ends */
-/* contact section ends */
 
-/* footer section starts */
 .footer {
   min-height: auto;
   padding-top: 0;
@@ -1204,9 +1183,7 @@ form .button-area {
     padding: 2rem;
   }
 }
-/* common media queries ends*/
 
-/* scroll top starts */
 #scroll-top {
   position: fixed;
   top: -140%;
@@ -1222,4 +1199,4 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
+
